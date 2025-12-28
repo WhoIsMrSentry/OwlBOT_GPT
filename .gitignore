@@ -1,0 +1,23 @@
+# Common editor/IDE files
+.vscode/
+.idea/
+/.vscode/*
+
+# Arduino/PlatformIO build and env
+*.bin
+*.elf
+*.hex
+/.pio/
+/.pioenvs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Secrets / local config
+**/network_param.h
+*.env
+
+# Node / Python
+node_modules/
+__pycache__/
